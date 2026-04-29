@@ -17,7 +17,7 @@ export default defineConfig(({mode}) => {
     },
     server: {
        host: true,
-  allowedHosts: "all",
+  allowedHosts: ["rapidmind-ai.onrender.com"],
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
